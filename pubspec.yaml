@@ -1,0 +1,62 @@
+name: HeardOver
+description: Overheard - Yakınındaki konuşmaları keşfet
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+  flutter: '>=3.19.3'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.0
+  geolocator: ^10.1.0
+  permission_handler: ^11.3.0
+  url_launcher: ^6.2.5
+  shared_preferences: ^2.2.2
+  geocoding: ^3.0.0
+  emoji_picker_flutter: ^4.4.0
+  image_picker: ^1.0.7
+  flutter_launcher_icons: ^0.14.4
+
+  # Firebase
+  firebase_core: ^3.15.0
+  firebase_auth: ^5.5.0
+  cloud_firestore: ^5.6.0
+  firebase_storage: ^12.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.14.4
+
+# Burası uygulama ikonunu ayarlar, bu şart!
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/heardoeverlogo.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/bat.png
+    - assets/images/bear.png
+    - assets/images/crab.png
+    - assets/images/crow.png
+    - assets/images/eagle.png
+    - assets/images/hen.png
+    - assets/images/jellyfish.png
+    - assets/images/lion.png
+    - assets/images/monkey.png
+    - assets/images/panda.png
+    - assets/images/parrot.png
+    - assets/images/reindeer.png
+    - assets/images/snake.png
+    - assets/images/tiger.png
+    - assets/images/wolf.png
+    - assets/images/wolf2.png
+    - assets/images/heardoverlogo.png
